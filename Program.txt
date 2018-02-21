@@ -6,12 +6,7 @@
 
 int main() 
 {
-long long int testcase,t,i,j,k;
-
-scanf(" %lli ",&testcase);
-    
-for(t=1;t<=testcase;t++)
-{
+long long int i,j,k;
 
 long long int size;
 scanf(" %lli ",&size);
@@ -80,6 +75,8 @@ printf("\n");
 long long int input;
 scanf(" %lli ",&input);
     
+
+
 for(i=1;i<size+1;i++)
 {
 if(array[input][i]!=0 && array[input][i]!=inf)
@@ -87,7 +84,8 @@ printf("%lli ",array[input][i]);
 if(array[input][i]==inf)
 printf("-1 ");
 }
-printf("\n");    
-}
+
+
+
 return 0;
 }
